@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buy.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <title>Bag</title>
+</head>
+<body>
+    <!-- menu -->
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="img/favlogo.png" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contactus.html">Contact us</a></li> 
+            </ul>
+        </nav>
+    </div>
+    <!-- Imagens retangulo e carrinho/perfil-->
+        <div class="imgret">
+            <img src="img/Retângulo 4.png">
+        </div>
+        <div>
+            <a href="login.html"><img src="img/perfil.png"class="imgperfil"></a> 
+            <a href="buy.html"><img src="img/carrinho.png" class="imgcar"></a>
+        </div>
+    </div>
+    <div class="logintela"> 
+        <div class="formlogin">
+            <h2>INFORMATION</h2>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div> 
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div> 
+            <div class="inputBox">
+                <input type="text" placeholder="Address">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Country">
+            </div> 
+            <div class="inputBox">
+                <input type="text" placeholder="City">
+            </div>   
+            <div class="inputBox">
+                <input type="text" placeholder="Phone">
+            </div>  
+            <h2>PAYMENT</h2>
+            <div class="inputBox">
+                <input type="text" id="card" placeholder="Card Number">
+            </div>  
+            <div class="inputBox">
+                <input type="text" id="nameCard" placeholder="Name of card">
+            </div>  
+            <div class="inputBox">
+                <input type="text" id="validity" placeholder="Expiration Day MM/YY">
+            </div>  
+            <div class="inputBox">
+                <input type="text" id="code" placeholder="Security Code">
+            </div>  
+        </div> 
+        <div class="loginpt2">
+            <div class= "cupomcode">
+                <div class="inputBox">
+                <input type="text" placeholder="gift card discount code">
+                </div>
+                <div class="inputBox">
+                <input type="button" value="APPLY"name="">
+                </div>
+            </div> 
+        </div> 
+        <div class="textone">
+            <h2> SUBTOTAL:<br>SHIPPING:<br>TOTAL:</h2>
+           
+            <div class="inputBox">
+                <input type="button" value="PAY NOW"name="" onclick="processarPagamento()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

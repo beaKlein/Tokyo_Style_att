@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+/*conteúdo logo*/
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    max-width: 100%;
+    cursor:pointer;
+    margin-left: 1%;
+    position: fixed;
+    padding-bottom: 10px;
+    margin-top: -93px;
+}
+/* Conteúdo menu*/
+nav{
+    flex:1;
+    padding-left:220px;;
+    position: fixed;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+    padding-bottom: 28px;
+}
+nav ul li a{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: solid 2px #000;
+}
+.imgret2{
+    position: absolute;
+    width: 672px;
+    left: 224px;
+    top: 722px;
+    z-index: 3;  
+}
+
+.img1{
+    position: absolute;
+    width: 650px;
+    height: 446px;
+    bottom: 0;
+    left: 146px;
+    top: 317px;
+    z-index: 2;
+}
+.img2{
+    position: absolute;
+    width: 459px;
+    height: 642px;
+    top: 239px;
+    left: 591px;
+    bottom: 0;
+    z-index: 1; 
+}
+/* texto*/
+  
+.content h1{
+    position: relative;
+    font-family:'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 800px;
+    margin-left: 1110px;
+    text-transform: uppercase; 
+    
+}
+.content h3{
+    position: relative;
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    padding-top: 10px; 
+    margin-left: 1112px;
+    margin-right: 50px;
+   
+}
+/*icones de compra*/
+
+.imgcar{
+    position: fixed;
+    width: 40px;
+    cursor: pointer;
+    margin-bottom: 0;
+    left: 1723px;
+    top: 42px;
+   
+}
+.imgperfil{
+    position: fixed;
+    width: 40px;
+    cursor: pointer;
+    margin-bottom: 0;
+    left: 1685px;
+    top: 43px;
+   
+}
+.imgret img{
+    position: absolute;
+    width: 10px;
+    height: 763px;
+    margin-top: -2%;
+    padding-bottom: 5%;
+    margin-top: 100px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1440px){
+   .logo{
+       width: 160px;
+       margin-top: -72px;
+   }
+   .imgcar{
+    width:35px;
+    top: 24px;
+    left: 1265px;
+    }
+
+    .imgperfil{
+    width:36px;
+    top: 25px;
+    left: 1230px;
+    }
+
+    nav ul li a{
+    font-size: 16px;
+    }
+
+    nav{
+    padding-left: 160px;
+    padding-top: 8px;
+    }
+
+    .img1{
+    width: 561px;
+    height: 385px;
+    left: 78px;
+    top: 262px;
+   
+    }
+    .img2{
+    width: 400px;
+    height: 560px;
+    top: 174px;
+    left: 408px;
+    }
+
+   .imgret2{
+    width: 536px;
+    left:160px;
+    top: 601px;
+    }
+
+   .imgret img{
+    width: 10px;
+    height: 580px;
+    margin-top: -2%;
+    padding-bottom: 5%;
+    margin-top: 100px;
+    }
+
+    .content h1{
+        font-size: 50px;
+        margin-top: 800px;
+        margin-left: 981px;  
+    }
+
+    .content h3{
+        font-size: 18px;
+        padding-top: 10px; 
+        margin-left: 981px;
+        margin-right: 50px; 
+    }
+
+}

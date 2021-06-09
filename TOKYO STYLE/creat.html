@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/creatac.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="js/sweetalert.min.js"></script>
+    <title>Join Us</title>
+</head>
+<body>
+     <!-- menu -->
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="img/favlogo.png" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contactus.html">Contact us</a></li> 
+            </ul>
+        </nav>
+            <div class="imgret">
+                <img src="img/Retângulo 4.png">
+            </div>
+                <div>
+                    <a href="login.html"><img src="img/perfil.png"class="imgperfil"></a> 
+                    <a href="buy.html"><img src="img/carrinho.png" class="imgcar"></a>
+                </div>
+        </div>
+        <div class="logintela"> 
+            <div class="formlogin">
+                <form id="formCreateAccount" method="post">
+                    <h2>CREAT ACCOUNT</h2>
+                    <div class="inputBox">
+                        <input id="name" type="text" placeholder="Name">
+                    </div> 
+                    <div class="inputBox">
+                        <input id="email" type="text" placeholder="Email">
+                    </div> 
+                    <div class="inputBox">
+                        <input id="senha" type="password" placeholder="Password">
+                    </div>
+                    <div class="inputBox">
+                        <input id="address" type="text" placeholder="Address">
+                    </div>
+                    <div class="inputBox">
+                        <input id="country" type="text" placeholder="Country">
+                    </div> 
+                    <div class="inputBox">
+                        <input id="city" type="text" placeholder="City">
+                    </div>   
+                    <div class="inputBox">
+                     <input id="phone" type="number" placeholder="Phone">
+                
+            </div>  
+                <div class="remember">
+                    <input type="checkbox" name=''>
+                    <label>Yes! Sign up to receive emails from Tokyo Style with the latest deals, sales and updates. </label>
+                </div>  
+                <div class="remember">
+                    <input id="termos" type="checkbox" name='chek'>
+                    <label>I agree to terms of service and privacity policy. </label>
+                </div>  
+            </form>
+                <div class="inputBox">
+                    <button type="button" name="buttonCreate" onclick="validarCadastro()">CREAT</button>
+                </div>
+            </div>   
+        </div>
+    </div>
+</body>
+</html>

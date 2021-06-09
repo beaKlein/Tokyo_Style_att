@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+/*conteúdo logo*/
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    cursor:pointer;
+    margin-left: 1%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 100%;
+}
+/* Conteúdo menu*/
+nav{
+    display:flex;
+    padding-left: 5px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+    padding-bottom: 28px;
+}
+nav ul li a{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: solid 2px #000;
+}
+.imgcar{
+    position:fixed;
+    width: 40px;
+    cursor: pointer;
+    margin-bottom: 0;
+    left: 1723px;
+    top: 42px; 
+    max-width: 100%;     
+}
+.imgperfil{
+    position: fixed;
+    width: 40px;
+    cursor: pointer;
+    margin-bottom: 0;
+    left: 1685px;
+    top: 43px; 
+    max-width: 100%;   
+}
+.imgret img{
+    position: absolute;
+    width: 10px;
+    height: 900px;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+/*INFORMATION*/
+.logintela h2{
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+.formlogin{
+    position:relative;
+    width: 50%;
+    height: 100%;  
+}
+.logintela{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    margin-top: -40%;
+    margin-left: 20%;
+    
+}
+.logintela .formlogin .inputBox{
+    margin-bottom: 15px;
+}
+ .logintela .formlogin .inputBox input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: solid 2px #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+}
+/*cupom e btn*/
+.cupomcode{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.loginpt2{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    margin-top: 30%;
+    margin-left: 100%;
+}
+.loginpt2 .cupomcode .inputBox{
+    margin-bottom: 15px;
+}
+.loginpt2 .cupomcode .inputBox input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: solid 2px #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.loginpt2 .cupomcode .inputBox input[type="button"]{
+    background:black;
+    color:#fff;
+    outline: none;
+    width: 523px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.loginpt2 .cupomcode .inputBox input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+.loginpt2.cupomcode .inputBox p a{
+    color: black;
+}
+.textone h2{
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90%;
+    margin-left: 100%;
+}
+
+.textone .inputBox{
+    margin-bottom: 15px;
+    margin-top: 28%;
+    margin-left: 100%;
+    padding-bottom: 10px;
+    
+}
+.textone .inputBox input{
+    width: 80px;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: solid 2px #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+   
+}
+.textone  .inputBox input[type="button"]{
+    background:black;
+    color:#fff;
+    outline: none;
+    width: 523px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.textone  .inputBox input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1440px) {
+    .logo{
+        width: 160px;    
+    }
+    .imgcar{
+        width:35px;
+        top: 24px;
+        left: 1280px;
+    }
+    .imgperfil{
+        width:35px;
+        top: 25px;
+        left: 1245px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    nav{
+        padding-left: 5px;
+        padding-top: 8px;
+    }
+.imgret img{
+    position: absolute;
+    width: 10px;
+    height: 600px;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+/*INFORMATION*/
+.logintela h2{
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.formlogin{
+    position:relative;
+    width: 50%;
+    height: 100%;  
+}
+.logintela{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    margin-top: -40%;
+    margin-left: 20%;
+    
+}
+.logintela .formlogin .inputBox{
+    margin-bottom: 15px;
+}
+ .logintela .formlogin .inputBox input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: solid 2px #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+}
+/*cupom e btn*/
+.cupomcode{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.loginpt2{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    margin-top: 40%;
+    margin-left: 100%;
+}
+.loginpt2 .cupomcode .inputBox{
+    margin-bottom: 15px;
+}
+.loginpt2 .cupomcode .inputBox input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: solid 2px #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.loginpt2 .cupomcode .inputBox input[type="button"]{
+    background:black;
+    color:#fff;
+    outline: none;
+    width: 400px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.loginpt2 .cupomcode .inputBox input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
+.loginpt2.cupomcode .inputBox p a{
+    color: black;
+}
+.textone h2{
+    font-size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100%;
+    margin-left: 100%;
+}
+
+.textone .inputBox{
+    margin-bottom: 15px;
+    margin-top: 35%;
+    margin-left: 100%;
+    padding-bottom: 10px;
+    
+}
+.textone .inputBox input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: solid 2px #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+   
+}
+.textone  .inputBox input[type="button"]{
+    background:black;
+    color:#fff;
+    outline: none;
+    width: 400px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.textone  .inputBox input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}
