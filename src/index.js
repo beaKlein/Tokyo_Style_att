@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 require('./controllers/authController')(app);
-requite('./controllers/projectController')(app);
+require('./controllers/projectController')(app);
 
 
 app.listen(4050);
