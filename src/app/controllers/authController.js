@@ -105,7 +105,7 @@ router.post('/reset_password', async (req, res) => {
 
     try{
         const user = await User.findOne({ email })
-            .select('+passwordResetToken, passwordResetExpires');
+            .select('+passwordResetToken passwordResetExpires');
 
         if (!user)
         return res.status(400).send({ error: 'User not found'});
@@ -120,7 +120,6 @@ router.post('/reset_password', async (req, res) => {
         return res.status(400).send({ error: 'Token expired, generate a new one' });
 
         user.password = password;
-        user.passwordResetToken = undefined;
 
         await user.save();
         res.send();
